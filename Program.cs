@@ -1,3 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using bootcamp_dotnet_qa.Models;
 
+Pessoa pessoa = new();
+
+pessoa.Name = "Thais";
+pessoa.Age = 21;
+
+pessoa.Apresentar();
