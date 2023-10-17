@@ -36,23 +36,23 @@ namespace bootcamp_dotnet_qa.Models
 
         public void Seno(double angulo)
         {
-            double radius = angulo * Math.PI;
+            double radius = angulo * Math.PI / 180;
             double seno = Math.Sin(radius);
-            Console.WriteLine($"Seno de {angulo} = {seno}");
+            Console.WriteLine($"Seno de {angulo}º = {seno}");
         }
 
         public void Coseno(double angulo)
         {
-            double radius = angulo * Math.PI;
+            double radius = angulo * Math.PI / 180;
             double coseno = Math.Cos(radius);
-            Console.WriteLine($"Coseno de {angulo} = {coseno}");
+            Console.WriteLine($"Coseno de {angulo}º = {coseno}");
         }
 
         public void Tangente(double angulo)
         {
-            double radius = angulo * Math.PI;
+            double radius = angulo * Math.PI / 180;
             double tange = Math.Sin(radius);
-            Console.WriteLine($"Tangente de {angulo} = {tange}");
+            Console.WriteLine($"Tangente de {angulo}º = {tange}");
         }
     }
 }
