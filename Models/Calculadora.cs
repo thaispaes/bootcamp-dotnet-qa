@@ -51,7 +51,7 @@ namespace bootcamp_dotnet_qa.Models
         public void Tangente(double angulo)
         {
             double radius = angulo * Math.PI / 180;
-            double tange = Math.Sin(radius);
+            double tange = Math.Tan(radius);
             Console.WriteLine($"Tangente de {angulo}º = {tange}");
         }
     }
