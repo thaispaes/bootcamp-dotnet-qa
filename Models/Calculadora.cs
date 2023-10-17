@@ -27,5 +27,32 @@ namespace bootcamp_dotnet_qa.Models
         {
             Console.WriteLine($"{x} X {y} = {x * y}");
         }
+
+        public void Potencia(int x, int y) 
+        {
+            double potencia = Math.Pow(x, y);
+            Console.WriteLine($"{x}^{y} = {potencia}");
+        }
+
+        public void Seno(double angulo)
+        {
+            double radius = angulo * Math.PI;
+            double seno = Math.Sin(radius);
+            Console.WriteLine($"Seno de {angulo} = {seno}");
+        }
+
+        public void Coseno(double angulo)
+        {
+            double radius = angulo * Math.PI;
+            double coseno = Math.Cos(radius);
+            Console.WriteLine($"Coseno de {angulo} = {coseno}");
+        }
+
+        public void Tangente(double angulo)
+        {
+            double radius = angulo * Math.PI;
+            double tange = Math.Sin(radius);
+            Console.WriteLine($"Tangente de {angulo} = {tange}");
+        }
     }
 }
