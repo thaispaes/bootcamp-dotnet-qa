@@ -25,7 +25,7 @@ namespace bootcamp_dotnet_qa.Exemplos
         }
 
         //DateTime
-        DateTime dataAtual = DateTime.Now;
+        // DateTime dataAtual = DateTime.Now;
         // Adicionando a Data dataAtual = DateTime.Now.AddDays(5);
         // Formatando a Data = dataAtual.ToString("dd/MM/yyyy HH:mm");
     }

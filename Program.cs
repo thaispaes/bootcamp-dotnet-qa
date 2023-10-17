@@ -1,12 +1,16 @@
 ﻿using bootcamp_dotnet_qa.Exemplos;
 using bootcamp_dotnet_qa.Models;
 
-Pessoa pessoa = new()
+int quantidadeEmEstoque = 10;
+
+int quantidadeCompra = 4;
+
+if (quantidadeEmEstoque >= quantidadeCompra)
 {
-    Name = "Thais",
-    Age = 21
-};
-
-pessoa.Apresentar();
-
+    Console.WriteLine("Venda Realizada!");
+}
+else
+{
+    Console.WriteLine("Desculpe. Produto em Falta");
+}
 
