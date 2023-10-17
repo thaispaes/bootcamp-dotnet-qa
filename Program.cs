@@ -1,24 +1,21 @@
 ﻿using bootcamp_dotnet_qa.Exemplos;
 using bootcamp_dotnet_qa.Models;
 
-int quantidadeEmEstoque = 10;
-int quantidadeCompra = 4;
-bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+Console.WriteLine("Digite uma letra");
+string letra = Console.ReadLine();
 
-Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
-Console.WriteLine($"Quantidade da compra: {quantidadeCompra}");
-Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
-
-if (quantidadeCompra == 0)
+switch (letra)
 {
-    Console.WriteLine("Venda Inválida!");
-}
-else if (possivelVenda)
-{
-    Console.WriteLine("Venda Realizada!");
-}
-else
-{
-    Console.WriteLine("Desculpe. Produto em Falta");
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("Vogal");
+        break;
+    
+    default:
+        Console.WriteLine("Não é uma vogal");
+        break;
 }
 
