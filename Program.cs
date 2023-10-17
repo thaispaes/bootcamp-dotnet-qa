@@ -8,7 +8,7 @@ Calculadora calculadora = new();
 // calculadora.Divisao(20,2);
 // calculadora.Multiplicacao(30,6);
 // calculadora.Potencia(3, 3);
-
-calculadora.Seno(30);
-calculadora.Coseno(30);
-calculadora.Tangente(30);
+// calculadora.Seno(30);
+// calculadora.Coseno(30);
+// calculadora.Tangente(30);
+calculadora.RaizQuadrada(9);

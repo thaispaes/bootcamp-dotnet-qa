@@ -54,5 +54,11 @@ namespace bootcamp_dotnet_qa.Models
             double tange = Math.Tan(radius);
             Console.WriteLine($"Tangente de {angulo}º = {Math.Round(tange, 4)}");
         }
+
+        public void RaizQuadrada(double x)
+        {
+            double raiz = Math.Sqrt(x);
+            Console.WriteLine($"Raiz quadrada de {x} = {raiz}");
+        }
     }
 }
