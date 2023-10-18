@@ -51,13 +51,55 @@ namespace bootcamp_dotnet_qa.Exemplos
             do
             {
                 Console.WriteLine("Digite um número: \n (0 para parar)");
-                numero = Convert.ToInt32(Console.ReadLine();)
+                numero = Convert.ToInt32(Console.ReadLine());
 
                 soma += numero;
 
             } while (numero != 0);
 
-            Console.WriteLine($"Total da soma dos números digitados é: " {soma});
+            Console.WriteLine($"Total da soma dos números digitados é: " +soma);
+        }
+
+        public void Menu(string opcao)
+        {
+            bool exibirMenu = true;
+
+            while(exibirMenu == true)
+            {
+                Console.Clear();
+                Console.WriteLine("Digite sua opção");
+                Console.WriteLine("1 - Cadastrar cliente");
+                Console.WriteLine("2 - Buscar cliente");
+                Console.WriteLine("3 - Apagar cliente");
+                Console.WriteLine("4 - Encerrar");
+
+                opcao = Console.ReadLine();
+
+                switch(opcao)
+                {
+                    case "1":
+                        Console.WriteLine("Cadastro de cliente");
+                        break;
+
+                    case "2":
+                        Console.WriteLine("Busca de cliente");
+                        break;
+
+                    case "3":
+                        Console.WriteLine("Apagar cliente");
+                        break;
+
+                    case "4":
+                        Console.WriteLine("Encerrar");
+                        exibirMenu = false;
+                        //Enviroment.exit(0); 
+                        break;
+                    
+                    default:
+                        Console.WriteLine("Opção inválida");
+                        break;
+                }
+            }
         }
     }
 }
