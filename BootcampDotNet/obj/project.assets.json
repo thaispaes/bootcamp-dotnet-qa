@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thais.regina.santos\\OneDrive - Accenture\\Documents\\Meus projetos\\bootcamp-dotnet-qa\\bootcamp-dotnet-qa.csproj",
-      "projectName": "bootcamp-dotnet-qa",
-      "projectPath": "C:\\Users\\thais.regina.santos\\OneDrive - Accenture\\Documents\\Meus projetos\\bootcamp-dotnet-qa\\bootcamp-dotnet-qa.csproj",
+      "projectUniqueName": "C:\\Users\\thais.regina.santos\\OneDrive - Accenture\\Documents\\Meus projetos\\bootcamp-dotnet-qa\\BootcampDotNet\\BootcampDotNet.csproj",
+      "projectName": "BootcampDotNet",
+      "projectPath": "C:\\Users\\thais.regina.santos\\OneDrive - Accenture\\Documents\\Meus projetos\\bootcamp-dotnet-qa\\BootcampDotNet\\BootcampDotNet.csproj",
       "packagesPath": "C:\\Users\\thais.regina.santos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thais.regina.santos\\OneDrive - Accenture\\Documents\\Meus projetos\\bootcamp-dotnet-qa\\obj\\",
+      "outputPath": "C:\\Users\\thais.regina.santos\\OneDrive - Accenture\\Documents\\Meus projetos\\bootcamp-dotnet-qa\\BootcampDotNet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thais.regina.santos\\AppData\\Roaming\\NuGet\\NuGet.Config"

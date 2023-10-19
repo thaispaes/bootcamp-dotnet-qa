@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thais.regina.santos\\OneDrive - Accenture\\Documents\\Meus projetos\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\BootcampDotNet.Common.csproj": {}
+    "C:\\Users\\thais.regina.santos\\OneDrive - Accenture\\Documents\\Meus projetos\\bootcamp-dotnet-qa\\BootcampExemplos\\BootcampExemplos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thais.regina.santos\\OneDrive - Accenture\\Documents\\Meus projetos\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\BootcampDotNet.Common.csproj": {
+    "C:\\Users\\thais.regina.santos\\OneDrive - Accenture\\Documents\\Meus projetos\\bootcamp-dotnet-qa\\BootcampExemplos\\BootcampExemplos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thais.regina.santos\\OneDrive - Accenture\\Documents\\Meus projetos\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\BootcampDotNet.Common.csproj",
-        "projectName": "BootcampDotNet.Common",
-        "projectPath": "C:\\Users\\thais.regina.santos\\OneDrive - Accenture\\Documents\\Meus projetos\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\BootcampDotNet.Common.csproj",
+        "projectUniqueName": "C:\\Users\\thais.regina.santos\\OneDrive - Accenture\\Documents\\Meus projetos\\bootcamp-dotnet-qa\\BootcampExemplos\\BootcampExemplos.csproj",
+        "projectName": "BootcampExemplos",
+        "projectPath": "C:\\Users\\thais.regina.santos\\OneDrive - Accenture\\Documents\\Meus projetos\\bootcamp-dotnet-qa\\BootcampExemplos\\BootcampExemplos.csproj",
         "packagesPath": "C:\\Users\\thais.regina.santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thais.regina.santos\\OneDrive - Accenture\\Documents\\Meus projetos\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\obj\\",
+        "outputPath": "C:\\Users\\thais.regina.santos\\OneDrive - Accenture\\Documents\\Meus projetos\\bootcamp-dotnet-qa\\BootcampExemplos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thais.regina.santos\\AppData\\Roaming\\NuGet\\NuGet.Config"
