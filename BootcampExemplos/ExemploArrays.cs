@@ -35,5 +35,11 @@ namespace BootcampExemplos.obj
         {
             Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
         }
+
+        public void CopiandoParaOutro()
+        {
+            int[] copiarArrayInteiros = new int[arrayInteiros.Length *2];
+            Array.Copy(arrayInteiros, copiarArrayInteiros, arrayInteiros.Length);
+        }
     }
 }
