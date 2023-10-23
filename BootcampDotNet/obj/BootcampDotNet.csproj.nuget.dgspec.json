@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet\\BootcampDotNet.csproj": {}
+    "C:\\Users\\thais.regina.santos\\Documents\\GitHub\\bootcamp-dotnet-qa\\BootcampDotNet\\BootcampDotNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet\\BootcampDotNet.csproj": {
+    "C:\\Users\\thais.regina.santos\\Documents\\GitHub\\bootcamp-dotnet-qa\\BootcampDotNet\\BootcampDotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet\\BootcampDotNet.csproj",
+        "projectUniqueName": "C:\\Users\\thais.regina.santos\\Documents\\GitHub\\bootcamp-dotnet-qa\\BootcampDotNet\\BootcampDotNet.csproj",
         "projectName": "BootcampDotNet",
-        "projectPath": "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet\\BootcampDotNet.csproj",
-        "packagesPath": "C:\\Users\\Thais\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet\\obj\\",
+        "projectPath": "C:\\Users\\thais.regina.santos\\Documents\\GitHub\\bootcamp-dotnet-qa\\BootcampDotNet\\BootcampDotNet.csproj",
+        "packagesPath": "C:\\Users\\thais.regina.santos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thais.regina.santos\\Documents\\GitHub\\bootcamp-dotnet-qa\\BootcampDotNet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Thais\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\thais.regina.santos\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

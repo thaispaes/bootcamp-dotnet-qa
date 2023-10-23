@@ -7,6 +7,7 @@ namespace bootcamp_dotnet_qa.Models
 {
     public class Pessoa
     {
+        private string _name;
         public string Name { get; set; }
         public int Age { get; set; }
 
