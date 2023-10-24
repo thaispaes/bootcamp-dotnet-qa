@@ -34,8 +34,9 @@ namespace BootcampDotNet.Common.Models
             
             for (int cont = 0; cont < Alunos.Count; cont++)
             {
-                string texto = "Nº " + (cont+1) + Alunos[cont].Fullname;
-                Console.WriteLine(Alunos[cont].Fullname);
+                // Usando COncatenação string texto = "Nº " + (cont+1) + Alunos[cont].Fullname;
+                string texto = $"Nº {cont + 1} - {Alunos[cont].Fullname}"; //Com interpolação
+                Console.WriteLine(texto);
             }
             
         }
