@@ -8,6 +8,9 @@ namespace bootcamp_dotnet_qa.Models
     public class Pessoa
     {
         private string _name;
+
+        private int _age;
+    
         public string Name 
         { 
             get => _name.ToUpper();
@@ -23,11 +26,29 @@ namespace bootcamp_dotnet_qa.Models
             }
         
         }
-        public int Age { get; set; }
+
+        public string Surname { get; set; }
+        public string Fullname => $"{Name} {Surname}";
+
+        public int Age 
+        { 
+            get => _age;
+            
+            set
+            {
+                if(value < 0)
+                {
+                    throw new ArgumentException("A idade não pode ser menor que zero");
+                }
+
+                _age = value;
+            } 
+            
+        }
 
         public void Apresentar() 
         {
-            Console.WriteLine($"Olá, meu nome é {Name}, e tenho {Age} anos");
+            Console.WriteLine($"Olá, meu nome é {Fullname}, e tenho {Age} anos");
         }
     }
 }
