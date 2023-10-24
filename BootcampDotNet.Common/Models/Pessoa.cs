@@ -8,7 +8,21 @@ namespace bootcamp_dotnet_qa.Models
     public class Pessoa
     {
         private string _name;
-        public string Name { get; set; }
+        public string Name 
+        { 
+            get => _name.ToUpper();
+            
+            set
+            {
+                if (value == "")
+                {
+                    throw new ArgumentException("O nome não pode ser vazio");
+                }
+
+                _name = value;
+            }
+        
+        }
         public int Age { get; set; }
 
         public void Apresentar() 
