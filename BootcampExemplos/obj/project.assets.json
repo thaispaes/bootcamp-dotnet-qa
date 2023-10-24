@@ -8,24 +8,26 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\thais.regina.santos\\.nuget\\packages\\": {}
+    "C:\\Users\\Thais\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thais.regina.santos\\Documents\\GitHub\\bootcamp-dotnet-qa\\BootcampExemplos\\BootcampExemplos.csproj",
+      "projectUniqueName": "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampExemplos\\BootcampExemplos.csproj",
       "projectName": "BootcampExemplos",
-      "projectPath": "C:\\Users\\thais.regina.santos\\Documents\\GitHub\\bootcamp-dotnet-qa\\BootcampExemplos\\BootcampExemplos.csproj",
-      "packagesPath": "C:\\Users\\thais.regina.santos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thais.regina.santos\\Documents\\GitHub\\bootcamp-dotnet-qa\\BootcampExemplos\\obj\\",
+      "projectPath": "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampExemplos\\BootcampExemplos.csproj",
+      "packagesPath": "C:\\Users\\Thais\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampExemplos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\thais.regina.santos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Thais\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
