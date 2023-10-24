@@ -10,10 +10,7 @@ namespace bootcamp_dotnet_qa.Models
         private string _name;
         public string Name 
         { 
-            get
-            {
-                return _name.ToUpper();
-            } 
+            get => _name.ToUpper();
             
             set
             {
