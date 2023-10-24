@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using bootcamp_dotnet_qa.Models;
+using BootcampDotNet.Common.Models;
 
 namespace BootcampDotNet.Common.Models
 {

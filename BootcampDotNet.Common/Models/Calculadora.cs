@@ -4,7 +4,7 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 
-namespace bootcamp_dotnet_qa.Models
+namespace BootcampDotNet.Common.Models
 {
     public class Calculadora
     {

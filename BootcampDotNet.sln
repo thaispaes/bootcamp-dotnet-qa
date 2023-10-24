@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootcampDotNet.Common", "Bo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootcampExemplos", "BootcampExemplos\BootcampExemplos.csproj", "{E741C5A5-7A2A-4105-A259-654347831A69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootcampDotNet", "BootcampDotNet\BootcampDotNet.csproj", "{57A735BD-035C-4938-8FBF-497898754CBF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootcampDotNet", "BootcampDotNet\BootcampDotNet.csproj", "{9C759EF8-3692-4BA2-A476-7BD080613EDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{E741C5A5-7A2A-4105-A259-654347831A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E741C5A5-7A2A-4105-A259-654347831A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E741C5A5-7A2A-4105-A259-654347831A69}.Release|Any CPU.Build.0 = Release|Any CPU
-		{57A735BD-035C-4938-8FBF-497898754CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57A735BD-035C-4938-8FBF-497898754CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57A735BD-035C-4938-8FBF-497898754CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57A735BD-035C-4938-8FBF-497898754CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C759EF8-3692-4BA2-A476-7BD080613EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C759EF8-3692-4BA2-A476-7BD080613EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C759EF8-3692-4BA2-A476-7BD080613EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C759EF8-3692-4BA2-A476-7BD080613EDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

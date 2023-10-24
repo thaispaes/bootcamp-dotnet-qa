@@ -1,0 +1,11 @@
+C:\Users\Thais\Documents\Projetos\Bootcamps\bootcamp-dotnet-qa\BootcampExemplos\bin\Debug\net7.0\BootcampExemplos.deps.json
+C:\Users\Thais\Documents\Projetos\Bootcamps\bootcamp-dotnet-qa\BootcampExemplos\bin\Debug\net7.0\BootcampExemplos.dll
+C:\Users\Thais\Documents\Projetos\Bootcamps\bootcamp-dotnet-qa\BootcampExemplos\bin\Debug\net7.0\BootcampExemplos.pdb
+C:\Users\Thais\Documents\Projetos\Bootcamps\bootcamp-dotnet-qa\BootcampExemplos\obj\Debug\net7.0\BootcampExemplos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thais\Documents\Projetos\Bootcamps\bootcamp-dotnet-qa\BootcampExemplos\obj\Debug\net7.0\BootcampExemplos.AssemblyInfoInputs.cache
+C:\Users\Thais\Documents\Projetos\Bootcamps\bootcamp-dotnet-qa\BootcampExemplos\obj\Debug\net7.0\BootcampExemplos.AssemblyInfo.cs
+C:\Users\Thais\Documents\Projetos\Bootcamps\bootcamp-dotnet-qa\BootcampExemplos\obj\Debug\net7.0\BootcampExemplos.csproj.CoreCompileInputs.cache
+C:\Users\Thais\Documents\Projetos\Bootcamps\bootcamp-dotnet-qa\BootcampExemplos\obj\Debug\net7.0\BootcampExemplos.dll
+C:\Users\Thais\Documents\Projetos\Bootcamps\bootcamp-dotnet-qa\BootcampExemplos\obj\Debug\net7.0\refint\BootcampExemplos.dll
+C:\Users\Thais\Documents\Projetos\Bootcamps\bootcamp-dotnet-qa\BootcampExemplos\obj\Debug\net7.0\BootcampExemplos.pdb
+C:\Users\Thais\Documents\Projetos\Bootcamps\bootcamp-dotnet-qa\BootcampExemplos\obj\Debug\net7.0\ref\BootcampExemplos.dll

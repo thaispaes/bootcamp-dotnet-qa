@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "BootcampDotNet/1.0.0": {
+        "dependencies": {
+          "BootcampDotNet.Common": "1.0.0"
+        },
+        "runtime": {
+          "BootcampDotNet.dll": {}
+        }
+      },
+      "BootcampDotNet.Common/1.0.0": {
+        "runtime": {
+          "BootcampDotNet.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BootcampDotNet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BootcampDotNet.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

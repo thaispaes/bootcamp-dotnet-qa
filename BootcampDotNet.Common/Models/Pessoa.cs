@@ -3,10 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace bootcamp_dotnet_qa.Models
+namespace BootcampDotNet.Common.Models
 {
     public class Pessoa
     {
+
+        public Pessoa()
+        {
+            
+        }
+        public Pessoa(string name, string surname)
+        {
+            Name = name;
+            Surname = surname;
+        }
+
         private string _name;
 
         private int _age;

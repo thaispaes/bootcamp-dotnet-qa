@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "BootcampDotNet.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BootcampDotNet.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BootcampDotNet.Common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BootcampDotNet.Common/1.0.0": {
+      "type": "project",
+      "path": "../BootcampDotNet.Common/BootcampDotNet.Common.csproj",
+      "msbuildProject": "../BootcampDotNet.Common/BootcampDotNet.Common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "BootcampDotNet.Common >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Thais\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\BootcampDotNet.Common.csproj": {
+              "projectPath": "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\BootcampDotNet.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

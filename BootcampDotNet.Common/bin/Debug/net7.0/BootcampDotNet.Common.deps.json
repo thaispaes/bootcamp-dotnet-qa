@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "bootcamp-dotnet-qa/1.0.0": {
+      "BootcampDotNet.Common/1.0.0": {
         "runtime": {
-          "bootcamp-dotnet-qa.dll": {}
+          "BootcampDotNet.Common.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "bootcamp-dotnet-qa/1.0.0": {
+    "BootcampDotNet.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

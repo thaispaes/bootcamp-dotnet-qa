@@ -1,4 +1,4 @@
-﻿using bootcamp_dotnet_qa.Exemplos;
-using bootcamp_dotnet_qa.Models;
+﻿using BootcampDotNet.Common.Models;
 
-
+Pessoa p1 = new Pessoa("Thais", "Paes");
+Pessoa p2 = new Pessoa(name: "Thais", surname: "Paes");
