@@ -31,10 +31,13 @@ namespace BootcampDotNet.Common.Models
         public void ListarAlunos()
         {
             Console.WriteLine($"Alunos do curso de: {Nome}");
-            foreach (Pessoa aluno in Alunos)
+            
+            for (int cont = 0; cont < Alunos.Count; cont++)
             {
-                Console.WriteLine(aluno.Fullname);
+                string texto = "Nº " + (cont+1) + Alunos[cont].Fullname;
+                Console.WriteLine(Alunos[cont].Fullname);
             }
+            
         }
 
     }
