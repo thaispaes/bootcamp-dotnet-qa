@@ -1,12 +1,14 @@
-﻿using BootcampDotNet.Common.Models;
+﻿using BootcampDotNet.Common.Models.DesafioFundamentos;
 
-Pessoa p1 = new Pessoa("Thais", "Paes");
-Pessoa p2 = new Pessoa(name: "Sarah", surname: "Paulson");
+Veiculo v1 = new Veiculo("XBV786", "Carro", "Fiat");
+Veiculo v2 = new Veiculo("THY678", "Carro", "Chevrolet");
+Veiculo v3 = new Veiculo("YHU768", "Moto", "Hyundai");
+Veiculo v4 = new Veiculo("UYT6754", "Carro", "Hyundai");
 
-Curso nomeCurso = new Curso();
-nomeCurso.Nome = "Inglês";
-nomeCurso.Alunos = new List<Pessoa>();
-
-nomeCurso.AdicionarAluno(p1);
-nomeCurso.AdicionarAluno(p2);
-nomeCurso.ListarAlunos();
+Estacionamento estacionamento = new Estacionamento
+{
+    Veiculos = new List<Veiculo>()
+};
+estacionamento.AdicionarVeiculo(v1);
+estacionamento.AdicionarVeiculo(v2);
+estacionamento.ListarVeiculos();
