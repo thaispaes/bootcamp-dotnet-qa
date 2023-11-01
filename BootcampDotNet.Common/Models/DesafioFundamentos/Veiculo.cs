@@ -20,7 +20,8 @@ namespace BootcampDotNet.Common.Models.DesafioFundamentos
 
         public Veiculo()
         {
-            
+
         }
+
     }
 }

@@ -25,16 +25,17 @@ namespace BootcampDotNet.Common.Models.DesafioFundamentos
         }
 
         //Metodos
-        public void AdicionarVeiculo(Veiculo veiculo) 
+        public void AdicionarVeiculo() 
         {
             Console.WriteLine("Digite a placa do veículo para estacionar: ");
-            veiculo.Placa = Console.ReadLine().ToUpper();
+            string placa = Console.ReadLine().ToUpper();
             Console.WriteLine("Digite o modelo do veículo: ");
-            veiculo.Modelo = Console.ReadLine().ToUpper();
+            string modelo = Console.ReadLine().ToUpper();
             Console.WriteLine("Digite o tipo do veículo: ");
-            veiculo.TipoVeiculo = Console.ReadLine().ToUpper();
+            string tipoVeiculo = Console.ReadLine().ToUpper();
 
-            veiculos.Add(veiculo);
+            Veiculo veiculoCadastrar = new (placa, tipoVeiculo, modelo);
+            veiculos.Add(veiculoCadastrar);
 
             Console.WriteLine("Veiculo cadastrado com Sucesso!!");
         }
@@ -78,12 +79,22 @@ namespace BootcampDotNet.Common.Models.DesafioFundamentos
 
         public void ListarVeiculos()
         {
-            Console.WriteLine($"Veículos estacionados:");
             
-            for (int cont = 0; cont < veiculos.Count; cont++)
-            {
-                Console.WriteLine($"Nº {cont + 1} - {veiculos[cont].Placa}/{veiculos[cont].Modelo}");
+
+            if(veiculos.Any()){
+
+                for (int cont = 0; cont < veiculos.Count; cont++)
+                {
+                    Console.WriteLine($"Veículos estacionados:");
+                    Console.WriteLine($"Nº {cont + 1} - {veiculos[cont].Placa}/{veiculos[cont].Modelo}");
+                }
             }
+            else
+            {
+                Console.WriteLine("Não existe carros estacionados no momemnto!");
+            }
+            
+            
             
         }
 

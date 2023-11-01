@@ -10,11 +10,9 @@ precoInicial = Convert.ToDecimal(Console.ReadLine());
 
 Console.WriteLine("Agora digite o preço por hora estacionada:");
 precoPorHora = Convert.ToDecimal(Console.ReadLine());
-Console.Clear();
 
 // Instancia a classe Estacionamento, já com os valores obtidos anteriormente
 Estacionamento es = new Estacionamento(precoInicial, precoPorHora);
-Veiculo veiculo = new Veiculo();
 
 string opcao = string.Empty;
 bool exibirMenu = true;
@@ -31,7 +29,7 @@ while (exibirMenu)
     switch (Console.ReadLine())
     {
         case "1":
-            es.AdicionarVeiculo(veiculo);
+            es.AdicionarVeiculo();
             break;
 
         case "2":

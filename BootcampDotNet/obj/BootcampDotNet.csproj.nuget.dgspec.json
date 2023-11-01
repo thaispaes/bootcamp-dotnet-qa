@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet\\BootcampDotNet.csproj": {}
+    "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet\\BootcampDotNet.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\BootcampDotNet.Common.csproj": {
+    "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\BootcampDotNet.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\BootcampDotNet.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\BootcampDotNet.Common.csproj",
         "projectName": "BootcampDotNet.Common",
-        "projectPath": "c:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\BootcampDotNet.Common.csproj",
+        "projectPath": "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\BootcampDotNet.Common.csproj",
         "packagesPath": "C:\\Users\\Thais\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\obj\\",
+        "outputPath": "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thais\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "c:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet\\BootcampDotNet.csproj": {
+    "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet\\BootcampDotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet\\BootcampDotNet.csproj",
+        "projectUniqueName": "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet\\BootcampDotNet.csproj",
         "projectName": "BootcampDotNet",
-        "projectPath": "c:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet\\BootcampDotNet.csproj",
+        "projectPath": "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet\\BootcampDotNet.csproj",
         "packagesPath": "C:\\Users\\Thais\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet\\obj\\",
+        "outputPath": "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thais\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -79,8 +79,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\BootcampDotNet.Common.csproj": {
-                "projectPath": "c:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\BootcampDotNet.Common.csproj"
+              "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\BootcampDotNet.Common.csproj": {
+                "projectPath": "C:\\Users\\Thais\\Documents\\Projetos\\Bootcamps\\bootcamp-dotnet-qa\\BootcampDotNet.Common\\BootcampDotNet.Common.csproj"
               }
             }
           }
