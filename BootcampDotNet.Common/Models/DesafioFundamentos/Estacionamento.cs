@@ -9,49 +9,80 @@ namespace BootcampDotNet.Common.Models.DesafioFundamentos
 {
     public class Estacionamento
     {
-        private List<Veiculo> _veiculoEstacionado;
-        public decimal precoInicial = 0;
-        public decimal precoPorHora = 0;
-        public List<Veiculo> Veiculos { get; set;}
+        private decimal precoInicial = 0;
+        private decimal precoPorHora = 0;
+        private List<Veiculo> veiculos = new List<Veiculo>();
 
-        
-         public Estacionamento()
+
+        public Estacionamento()
         {
 
         }
-
-        public Estacionamento(List<Veiculo> veiculoEstacionado)
-        {
-            Veiculos = veiculoEstacionado;
-        }
-
-        public Estacionamento(decimal precoInicial, decimal precoHora, List<Veiculo> veiculoEstacionado)
+        public Estacionamento(decimal precoInicial, decimal precoPorHora)
         {
             this.precoInicial = precoInicial;
-            this.precoPorHora = precoHora;
-            Veiculos = veiculoEstacionado;
+            this.precoPorHora = precoPorHora;
         }
 
         //Metodos
-        public void AdicionarVeiculo(Veiculo veiculoEstacionado) 
+        public void AdicionarVeiculo(Veiculo veiculo) 
         {
-            Veiculos.Add(veiculoEstacionado);
+            Console.WriteLine("Digite a placa do veículo para estacionar: ");
+            veiculo.Placa = Console.ReadLine().ToUpper();
+            Console.WriteLine("Digite o modelo do veículo: ");
+            veiculo.Modelo = Console.ReadLine().ToUpper();
+            Console.WriteLine("Digite o tipo do veículo: ");
+            veiculo.TipoVeiculo = Console.ReadLine().ToUpper();
+
+            veiculos.Add(veiculo);
+
+            Console.WriteLine("Veiculo cadastrado com Sucesso!!");
         }
 
-
-        public void RemoverVeiculo(Veiculo veiculoEstacionado)
+        public void RemoverVeiculo()
         {
-            Veiculos.Remove(veiculoEstacionado);
+            string placa = "";
+            bool veiculoExcluido = false;
+            while(veiculoExcluido == false)
+            {
+                Console.WriteLine("Digite a placa do veículo para remover: ");
+                placa = Console.ReadLine().ToUpper();
 
+                Veiculo veiculoEncontrado = veiculos.FirstOrDefault(v => v.Placa == placa);
+                
+                if (veiculoEncontrado != null)
+                {
+                    int horas = 0;
+                    decimal valorTotal = 0;
+
+                    Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
+                    if (int.TryParse(Console.ReadLine(), out horas))
+                    {
+                        valorTotal = precoInicial + precoPorHora * horas;
+                        veiculos.Remove(veiculoEncontrado);
+                        Console.WriteLine($"O veículo {placa} foi removido e o preço total foi de: R$ {valorTotal}");
+                        veiculoExcluido = true;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Quantidade de horas inválida. A remoção do veículo não foi concluída.");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Esse veículo não está estacionado aqui. Confira se digitou a placa corretamente.");
+                }
+            }
+            
         }
 
         public void ListarVeiculos()
         {
             Console.WriteLine($"Veículos estacionados:");
             
-            for (int cont = 0; cont < Veiculos.Count; cont++)
+            for (int cont = 0; cont < veiculos.Count; cont++)
             {
-                Console.WriteLine($"Nº {cont + 1} - {Veiculos[cont].Placa}/{Veiculos[cont].Modelo}");
+                Console.WriteLine($"Nº {cont + 1} - {veiculos[cont].Placa}/{veiculos[cont].Modelo}");
             }
             
         }

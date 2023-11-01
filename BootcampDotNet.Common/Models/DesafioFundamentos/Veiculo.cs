@@ -17,5 +17,10 @@ namespace BootcampDotNet.Common.Models.DesafioFundamentos
             TipoVeiculo = tipoVeiculo;
             Modelo = modelo;
         }
+
+        public Veiculo()
+        {
+            
+        }
     }
 }
