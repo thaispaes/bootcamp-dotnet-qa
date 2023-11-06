@@ -36,6 +36,11 @@ namespace BootcampExemplos
                 Console.WriteLine($"Ocorreu uma exceção genérica; {ex.Message}");
             }
 
+            finally //Ocorre sempre ao final da execução com exceção ou não
+            {
+                Console.WriteLine("Chegou até aqui!");
+            }
+
         }
     }
 }
